@@ -1,7 +1,7 @@
 pipeline {
     agent any
     environment {
-        IMAGE_NAME = 'hdhienrr/simple-app'
+        IMAGE_NAME = 'dockerhad/simple-app'
         REGISTRY = 'https://index.docker.io/v1/'
         REGISTRY_CREDENTIALS = 'dockerhub-credentials'
         // PATH = "C:/Program Files/Docker/Docker/resources/bin"
